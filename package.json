@@ -4,6 +4,7 @@
   "description": "Pattern library for Topi E-commerce",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
     "fractal:start": "fractal start --sync",
     "fractal:build": "fractal build"
   },
