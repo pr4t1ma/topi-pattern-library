@@ -12,6 +12,10 @@ input {
   font-family: 'Dedact Gothic', sans-serif;
 }
 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 // specify inputs here to ensure variables are imported beforehand
 // relies on npm sass globbing
 @import '../components/**/*.scss';

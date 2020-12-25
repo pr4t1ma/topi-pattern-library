@@ -1,11 +1,12 @@
 <div class="product">
-    <h3>Kharoyo topi</h3>
-    {{ render '@image'}}
-    {{ render '@price'}}
+    <h3>{{name}}</h3>
+    {{ render '@image' image}}
+    {{ render '@sale'}}
+    {{ render '@price' price}}
     <div class="overlay">
         <p class="desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
-        {{render '@button'}}
+        {{render '@button--icon-button' button}}
     </div>
 </div>
