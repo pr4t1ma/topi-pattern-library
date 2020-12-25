@@ -1,0 +1,8 @@
+.products-list {
+  display: flex;
+  justify-content: space-between;
+
+  .product {
+    width: calc(33% - 10px);
+  }
+}

@@ -1,0 +1,38 @@
+.product {
+  position: relative;
+  border: 1px solid #ccc;
+
+  .price {
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+  }
+
+  .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.726);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+
+    .desc {
+      color: white;
+      text-align: center;
+      text-shadow: 1px 1px 1px #000;
+    }
+  }
+
+  &:hover {
+    .overlay {
+      opacity: 1;
+    }
+  }
+}
