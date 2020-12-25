@@ -1,15 +1,10 @@
-.product {
+.category {
   position: relative;
 
   h3 {
     position: absolute;
     background: rgba(255, 255, 255, 0.5);
     padding: 10px 20px;
-  }
-  .price {
-    position: absolute;
-    right: 0;
-    bottom: 60px;
   }
   .sale {
     position: absolute;

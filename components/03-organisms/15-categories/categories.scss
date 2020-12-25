@@ -1,0 +1,17 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__cat {
+    margin-bottom: 5px;
+
+    &--span-2 {
+      width: 66%;
+    }
+
+    &--span-1 {
+      width: 33%;
+    }
+  }
+}
