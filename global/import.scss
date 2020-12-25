@@ -1,9 +1,9 @@
 // import the basics
-@import "colours";
-@import "normalize";
+@import 'colours';
+@import 'normalize';
 
 body {
-  font-family: "Prata", serif;
+  font-family: 'Prata', serif;
 }
 
 .container {
@@ -12,4 +12,4 @@ body {
 }
 // specify inputs here to ensure variables are imported beforehand
 // relies on npm sass globbing
-@import "../components/**/*.scss";
+@import '../components/**/*.scss';

@@ -5,9 +5,20 @@ nav {
     list-style: none;
     display: flex;
     padding: 0;
+    justify-content: flex-start;
+  }
 
-    li {
-      flex-grow: 1;
+  li {
+    margin-right: 40px;
+    position: relative;
+
+    &:hover::after {
+      content: '.';
+      color: #ff7b00;
+      position: absolute;
+      right: -5px;
+      bottom: -4px;
+      font-size: 25px;
     }
   }
 }
