@@ -14,4 +14,17 @@
       width: 33%;
     }
   }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    &__cat {
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+    }
+  }
 }

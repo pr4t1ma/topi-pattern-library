@@ -7,8 +7,17 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
+
+  @media (max-width: 1366px) {
+    max-width: 1000px;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 100%;
+    padding: 20px;
+  }
 }
 // specify inputs here to ensure variables are imported beforehand
 // relies on npm sass globbing
