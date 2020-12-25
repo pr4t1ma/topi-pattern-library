@@ -15,14 +15,15 @@
     }
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 760px) {
     flex-direction: column;
     &__cat {
       width: 100%;
+      margin-bottom: 20px;
 
       img {
         width: 100%;
-        height: 400px;
+        height: clamp(300px, 80vw, 400px);
         object-fit: cover;
       }
     }
