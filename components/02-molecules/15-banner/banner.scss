@@ -1,0 +1,39 @@
+.banner {
+  position: relative;
+  margin-bottom: 40px;
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  &__text {
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid $c-primary;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  blockquote:before {
+    color: $c-primary;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+  .author {
+    text-align: right;
+  }
+}
