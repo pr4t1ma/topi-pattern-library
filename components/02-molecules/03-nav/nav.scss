@@ -1,4 +1,4 @@
-nav {
+.nav {
   display: block;
 
   ul {
@@ -8,12 +8,24 @@ nav {
     justify-content: flex-start;
   }
 
+  &--vertical {
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+
+      li {
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+    }
+  }
+
   li {
     margin-right: 40px;
     position: relative;
 
     &:hover::after {
-      content: '.';
+      content: ".";
       color: #ff7b00;
       position: absolute;
       right: -5px;

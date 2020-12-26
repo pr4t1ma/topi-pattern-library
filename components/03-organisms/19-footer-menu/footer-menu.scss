@@ -1,0 +1,8 @@
+.footer-menu {
+  margin-top: 50px;
+  display: flex;
+
+  &__col {
+    flex-grow: 1;
+  }
+}
