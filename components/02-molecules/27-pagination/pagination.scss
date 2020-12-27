@@ -1,0 +1,22 @@
+.pagination {
+  margin-bottom: 50px;
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+
+      li {
+        margin: 0 20px;
+
+        &.number {
+          border: 1px solid #ccc;
+          color: #fff;
+          background: #eee;
+          padding: 8px 15px;
+        }
+      }
+    }
+  }
+}

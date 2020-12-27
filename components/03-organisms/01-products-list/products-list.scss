@@ -1,9 +1,11 @@
 .products-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .product {
     width: calc(33% - 10px);
+    margin-bottom: 20px;
   }
 
   @media (max-width: 760px) {

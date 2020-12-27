@@ -1,0 +1,13 @@
+<div class="contact-form">
+    <form action="/">
+        {{ render '@form-field' firstname}}
+        {{ render '@form-field' lastname}}
+        {{ render '@form-field' email}}
+        {{ render '@form-field--select' select}}
+        {{ render '@form-field--select' branch}}
+        {{ render '@form-field--textarea' message}}
+        <div class="form-actions">
+            {{ render '@button' submit}}
+        </div>
+    </form>
+</div>

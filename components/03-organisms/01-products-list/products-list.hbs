@@ -1,9 +1,8 @@
 <div class="products-wrap">
-    <h3>Neue Produkte</h3>
+    <h3>{{title}}</h3>
     <div class="products-list">
-        {{ render '@product' pr1}}
-        {{ render '@product' pr2}}
-        {{ render '@product' pr3}}
+        {{#each products as |product|}}
+        {{ render '@product' product}}
+        {{/each}}
     </div>
-
 </div>
