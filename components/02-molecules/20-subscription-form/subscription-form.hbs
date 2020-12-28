@@ -2,10 +2,11 @@
     <h3>Newsletter</h3>
     <p>Bleiben Sie mit uns up to date und freuen Sie sich über exklusive Geschenke, Vorteils-Aktionen.</p>
     <form action="/">
-        <div class="form-field"><input type="email" placeholder="E-Mail" required /></div>
-        <div class="form-field"><label for=""><input type="checkbox" name="datenschutz" id="ds" required> Ja, ich
+        <div class="subscription__field"><input type="email" placeholder="E-Mail" required /></div>
+        <div class="subscription__field"><label for=""><input type="checkbox" name="datenschutz" id="ds" required> Ja,
+                ich
                 akzeptiere die
                 <a href="/">Datenschutzrechtlenie</a></label></div>
-        <div class="form-action">{{ render '@button' button}}</div>
+        <div class="subscription__action">{{ render '@button' button}}</div>
     </form>
 </section>

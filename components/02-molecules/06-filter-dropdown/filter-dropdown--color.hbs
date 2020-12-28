@@ -1,9 +1,9 @@
 <div class="filter-dropdown filter-dropdown--color">
-  <label>{{label}}</label>
+  <label>{{label}} <i class="fa fa-angle-down"></i> </label>
   <input type="checkbox" name="filter" class="filter-root">
   <ul>
     {{#each options}}
-    <li style="background:{{label}}">
+    <li style="color:{{label}}">
       <input type="checkbox" value="{{value}}" />
       <label>
         {{label}}

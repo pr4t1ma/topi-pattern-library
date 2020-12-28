@@ -2,19 +2,55 @@
   position: relative;
   border: 1px solid #ccc;
 
+  & > label {
+    padding: 10px 30px 10px 20px;
+    display: block;
+  }
+
+  i.fa {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .filter-root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    height: 28px;
+    z-index: 2;
+
+    &:checked {
+      & ~ ul {
+        display: block;
+      }
+
+      & ~ i.fa::before {
+        content: "\f106";
+      }
+    }
+  }
+
   ul {
     display: none;
     list-style: none;
     padding: 0;
     margin: 0;
-    border-top: 1px solid #ddd;
+    border: 1px solid #ddd;
+    z-index: 99;
+    position: absolute;
+    background: #fff;
 
     li {
       position: relative;
 
       label {
         display: block;
-        padding: 5px;
+        padding: 10px 20px;
       }
 
       input[type="checkbox"] {
@@ -30,24 +66,6 @@
           color: white;
         }
       }
-    }
-  }
-  & > label {
-    padding: 5px;
-    display: block;
-  }
-  .filter-root {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    opacity: 0;
-    cursor: pointer;
-    height: 28px;
-
-    &:checked + ul {
-      display: block;
     }
   }
 }

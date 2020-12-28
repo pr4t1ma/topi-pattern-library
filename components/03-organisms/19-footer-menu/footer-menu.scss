@@ -5,4 +5,8 @@
   &__col {
     flex-grow: 1;
   }
+
+  @media (max-width: 760px) {
+    display: block;
+  }
 }

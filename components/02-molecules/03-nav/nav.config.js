@@ -4,19 +4,23 @@ module.exports = {
     links: [
       {
         label: "Startseite",
-        href: "/",
+        href: "./homepage",
       },
       {
         label: "Uber uns",
-        href: "/about",
+        href: "./aboutpage",
+      },
+      {
+        label: "Kategorien",
+        href: "./categorypage",
       },
       {
         label: "Geschichte",
-        href: "/story",
+        href: "./stories",
       },
       {
         label: "Kontakt",
-        href: "/contact",
+        href: "./contactpage",
       },
     ],
   },

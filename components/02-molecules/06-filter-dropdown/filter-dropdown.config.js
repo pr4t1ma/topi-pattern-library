@@ -1,10 +1,10 @@
 module.exports = {
   context: {
-    label: "Size",
+    label: "Filter Name",
     options: [
-      { label: "S", value: "S" },
-      { label: "M", value: "M" },
-      { label: "L", value: "L" },
+      { label: "Filter value 1", value: "1" },
+      { label: "Filter value 2", value: "2" },
+      { label: "Filter value 3", value: "3" },
     ],
   },
 };

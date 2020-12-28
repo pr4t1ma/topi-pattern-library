@@ -1,0 +1,13 @@
+.product-filters {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  .filter-dropdown {
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

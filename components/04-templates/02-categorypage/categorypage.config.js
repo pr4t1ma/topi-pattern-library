@@ -21,21 +21,5 @@ module.exports = {
         { name: "Mushroom topi", price: { new: 25 } },
       ],
     },
-    color: {
-      label: "Color",
-      options: [
-        { label: "red", value: "R" },
-        { label: "green", value: "G" },
-        { label: "blue", value: "B" },
-      ],
-    },
-    size: {
-      label: "Size",
-      options: [
-        { label: "Small", value: "S" },
-        { label: "Medium", value: "M" },
-        { label: "Large", value: "L" },
-      ],
-    },
   },
 };
