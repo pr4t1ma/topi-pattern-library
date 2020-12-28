@@ -1,9 +1,7 @@
-<div class="banner">
-  {{#if blockquote}}
-  <div class="banner__text">
+<div class="banner banner--short">
+  {{#if blockquote}} <div class="banner__text">
     {{render '@blockquote' blockquote}}
     <p class="author">- {{author}}</p>
-  </div>
-  {{/if}}
+  </div>{{/if}}
   {{render '@image' imageData}}
 </div>

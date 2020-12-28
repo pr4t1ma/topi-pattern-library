@@ -2,12 +2,12 @@
     <nav>
         <ul>
             <li>{{render '@link--icon-button' prevData}}</li>
-            <li class="number">{{> '@link' text='1'}}</li>
-            <li class="number">{{> '@link' text='2'}}</li>
-            <li class="number">{{> '@link' text='3'}}</li>
+            <li class="number active">{{> '@link' text='1'}}</li>
+            <li class="number">{{> '@link' text='2' href='/'}}</li>
+            <li class="number">{{> '@link' text='3' href='/'}}</li>
+            <li class="number">{{> '@link' text='...'}}</li>
+            <li class="number">{{> '@link' text='22' href='/'}}</li>
             <li>{{render '@link--icon-button' nextData}}</li>
         </ul>
-
-
     </nav>
 </div>

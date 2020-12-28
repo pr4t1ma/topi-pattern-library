@@ -1,0 +1,14 @@
+<div class="filter-dropdown filter-dropdown--color">
+  <label>{{label}}</label>
+  <input type="checkbox" name="filter" class="filter-root">
+  <ul>
+    {{#each options}}
+    <li style="background:{{label}}">
+      <input type="checkbox" value="{{value}}" />
+      <label>
+        {{label}}
+      </label>
+    </li>
+    {{/each}}
+  </ul>
+</div>

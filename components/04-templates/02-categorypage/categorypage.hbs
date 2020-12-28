@@ -1,7 +1,9 @@
 <div class="container">
     {{ render '@header'}}
     {{ render '@page-header' pageHeaderData}}
-    {{ render '@banner'}}
+    {{ render '@banner--short' bannerData}}
+    {{ render '@filter-dropdown' size}}
+    {{ render '@filter-dropdown--color' color}}
     {{ render '@products-list' productListData}}
     {{ render '@pagination'}}
     {{ render '@subscription-form'}}

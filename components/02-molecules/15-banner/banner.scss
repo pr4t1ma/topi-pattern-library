@@ -7,6 +7,12 @@
     height: 400px;
     object-fit: cover;
   }
+
+  &--short {
+    img {
+      height: 260px;
+    }
+  }
   &__text {
     padding: 20px;
     position: absolute;
