@@ -4,18 +4,18 @@ const sass = require("gulp-sass");
 const sassGlob = require("gulp-sass-glob");
 const log = require("fancy-log");
 const fractal = require("./fractal.config");
+const sourcemaps = require("gulp-sourcemaps");
 
-// a task to import base variables first, then from within our import file, fetch component styles and add them to a concatenated output file
 function styles() {
-  return (
-    src(["global/import.scss"])
-      .pipe(sassGlob())
-      .pipe(sass().on("error", sass.logError))
-      .pipe(rename("styles.css"))
-      // this is where site.css will be output. You'll reference this file in your _preview.hbs, so make sure the location is located in the static asset folder defined in fractal.js
-      .pipe(dest("./public/css"))
-  );
+  return src(["global/import.scss"])
+    .pipe(sourcemaps.init())
+    .pipe(sassGlob())
+    .pipe(sass().on("error", sass.logError))
+    .pipe(rename("styles.css"))
+    .pipe(sourcemaps.write("."))
+    .pipe(dest("./public/css"));
 }
+
 function fractalServer() {
   const server = fractal.web.server({ sync: true });
   server.on("error", ({ message }) => log.error(message));
