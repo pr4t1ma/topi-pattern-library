@@ -1,0 +1,8 @@
+{{#with this as |root|}}
+{{#each options as |option|}}
+<div class="btn--radio-button">
+    <input type="radio" name="{{root.fieldname}}" id="radio-button-{{option.value}}" value="{{option.value}}">
+    <label for="radio-button-{{option.value}}">{{option.label}}</label>
+</div>
+{{/each}}
+{{/with}}
