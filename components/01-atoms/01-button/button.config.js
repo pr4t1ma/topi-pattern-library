@@ -1,9 +1,15 @@
 module.exports = {
   context: {
-    icon: "search",
     text: "Search",
   },
   variants: [
+    {
+      name: "icon-button",
+      context: {
+        icon: "facebook",
+        text: "follow us",
+      },
+    },
     {
       name: "radio-buttons",
       context: {
@@ -22,6 +28,13 @@ module.exports = {
             value: "l",
           },
         ],
+      },
+    },
+    {
+      name: "checkbox-button",
+      context: {
+        label: "Favorite",
+        icon: "heart",
       },
     },
   ],

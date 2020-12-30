@@ -1,0 +1,22 @@
+<div class="product product--horizontal">
+    {{ render '@sale'}}
+    <div class="product__image"> {{ render '@image' image}}</div>
+    <div class="product__details">
+        <div class="details-left">
+            <h3>{{name}}</h3>
+            <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            {{ render '@button--radio-buttons' sizeData}}
+            {{ render '@button--radio-buttons' colorData}}
+
+        </div>
+        <div class="details-right">
+            {{ render '@price' price}}
+            {{ render '@button--icon-button' button}}
+            {{ render '@button--checkbox-button' favoriteData}}
+        </div>
+
+
+    </div>
+</div>
