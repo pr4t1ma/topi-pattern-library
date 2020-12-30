@@ -22,4 +22,42 @@
       opacity: 1;
     }
   }
+
+  &--horizontal {
+    display: flex;
+
+    .product__image {
+      width: 200px;
+      height: 200px;
+      margin-right: 20px;
+    }
+
+    .product__details {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .radio-buttons {
+        margin-top: 10px;
+
+        label {
+          padding: 7px 15px;
+        }
+      }
+      h3 {
+        position: static;
+        padding: 0;
+      }
+      .price {
+        position: static;
+        text-align: right;
+        padding: 20;
+      }
+
+      .details-right {
+        min-width: 225px;
+      }
+    }
+  }
 }

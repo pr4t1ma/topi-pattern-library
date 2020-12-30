@@ -4,7 +4,7 @@ module.exports = {
     products: [
       {
         name: "Kharayo m",
-        image: { imgAttr: "700/800?" + Math.random() },
+        image: { imgAttr: "600/600?" + Math.random() },
         price: {
           old: "40,-",
           new: "30,-",
@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         name: "Jarayo m",
-        image: { imgAttr: "700/800?" + Math.random() },
+        image: { imgAttr: "600/600?" + Math.random() },
         price: {
           old: "30,-",
           new: "10,-",
@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         name: "Harayo m",
-        image: { imgAttr: "700/800?" + Math.random() },
+        image: { imgAttr: "600/600?" + Math.random() },
         price: {
           old: "20,-",
           new: "14,-",

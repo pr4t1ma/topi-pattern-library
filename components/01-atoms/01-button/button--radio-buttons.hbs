@@ -1,0 +1,11 @@
+<div class="radio-buttons">
+    {{#with this as |root|}}
+    {{#each options as |option|}}
+    <div class="btn--radio-button">
+        <input type="radio" name="{{root.fieldname}}" id="radio-button-{{root.fieldname}}-{{option.value}}"
+            value="{{option.value}}">
+        <label for="radio-button-{{root.fieldname}}-{{option.value}}">{{option.label}}</label>
+    </div>
+    {{/each}}
+    {{/with}}
+</div>
