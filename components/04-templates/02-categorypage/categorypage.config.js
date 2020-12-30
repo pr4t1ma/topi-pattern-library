@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     productListData: {
-      title: "Alle Mütze",
+      title: "",
       products: [
         {
           name: "Nepali topi",

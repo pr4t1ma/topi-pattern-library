@@ -1,23 +1,27 @@
-.image-with-text {
+.iwt {
   display: flex;
-  margin: 5px;
 
-  img {
+  & > div {
     width: 50%;
-    height: auto;
+    max-height: 400px;
   }
-  .text {
-    margin-left: 0 20px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    h2 {
-      margin: 5px;
-    }
 
-    p {
-      line-height: 1.5;
+  &__image {
+    img {
+      height: 100%;
+      object-fit: cover;
     }
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+
+    .center-text {
+      margin: 40px;
+    }
+  }
+  &--reverse {
+    flex-direction: row-reverse;
   }
 }

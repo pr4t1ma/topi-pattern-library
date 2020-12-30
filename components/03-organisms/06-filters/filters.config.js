@@ -16,5 +16,26 @@ module.exports = {
         { label: "L", value: "L" },
       ],
     },
+    sortData: {
+      fieldname: "Sort",
+      options: [
+        {
+          label: "Popular",
+          value: "p",
+        },
+        {
+          label: "Newest",
+          value: "n",
+        },
+        {
+          label: "Cheapest",
+          value: "c",
+        },
+        {
+          label: "Sale",
+          value: "s",
+        },
+      ],
+    },
   },
 };

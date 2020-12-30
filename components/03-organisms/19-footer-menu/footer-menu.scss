@@ -1,6 +1,11 @@
 .footer-menu {
   margin-top: 50px;
-  display: flex;
+  background: #efefef;
+  padding: 20px 0;
+
+  .container {
+    display: flex;
+  }
 
   &__col {
     flex-grow: 1;

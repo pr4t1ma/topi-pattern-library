@@ -1,8 +1,10 @@
 <div class="container">
     {{ render '@header'}}
     {{ render '@page-header' pageHeaderData}}
-    {{ render '@images-'}}
+    {{ render '@image-with-text' storyData}}
+    {{ render '@image-with-text--reverse' reverseData}}
+    {{render '@center-text' textData}}
     {{ render '@subscription-form'}}
-    {{ render '@footer-menu'}}
-    {{ render '@footer'}}
 </div>
+{{ render '@footer-menu'}}
+{{ render '@footer'}}
