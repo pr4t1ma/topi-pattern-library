@@ -1,0 +1,45 @@
+.product-details {
+  display: flex;
+
+  &__thumbnails {
+    width: 200px;
+    margin-right: 10px;
+  }
+  &__more {
+    display: flex;
+
+    .radio-buttons {
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+  .sale {
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  .product-details__details {
+    margin-left: 20px;
+  }
+  .product-details__actions {
+    margin: 10px;
+
+    .price {
+      display: block;
+      padding: 10px;
+      text-align: right;
+    }
+    .btn {
+      margin: 0 10px;
+      padding: 0 10px;
+      white-space: nowrap;
+    }
+    .produt-details__wrap {
+      display: flex;
+    }
+  }
+}

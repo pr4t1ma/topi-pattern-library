@@ -1,0 +1,34 @@
+<div class="product-details">
+    <div class="product-details__thumbnails">
+        {{ render '@image' thumbnail1}}
+        {{ render '@image' thumbnail2}}
+        {{ render '@image' thumbnail3}}
+    </div>
+    <div class="product-details__image">
+
+        {{ render '@image' image}}
+        {{ render '@sale'}}</div>
+
+    <div class="product-details__details">
+        <h3>{{name}}</h3>
+        <p class="desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="product-details__more">
+            <div class="product-details__config">
+                {{ render '@button--radio-buttons' }}
+                {{ render '@button--radio-buttons' colors }}
+            </div>
+
+            <div class="product-details__actions">
+                {{ render '@price' price}}
+                <div class="produt-details__wrap">
+                    {{ render '@button--icon-button' button}}
+                    {{ render '@button--checkbox-button'}}
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>

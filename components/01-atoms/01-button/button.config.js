@@ -33,7 +33,7 @@ module.exports = {
     {
       name: "checkbox-button",
       context: {
-        label: "Favorite",
+        label: "",
         icon: "heart",
       },
     },
