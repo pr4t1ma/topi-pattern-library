@@ -1,0 +1,19 @@
+.basket-items {
+  display: flex;
+  &__wrapper {
+    img {
+      width: 500px;
+    }
+  }
+  &__button-wrap {
+    display: flex;
+    align-items: center;
+
+    .btn {
+      margin: 0 20px;
+    }
+  }
+  .basket-items__button {
+    margin-left: 50px;
+  }
+}

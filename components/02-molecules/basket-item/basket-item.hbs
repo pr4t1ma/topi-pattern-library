@@ -1,0 +1,16 @@
+<div class="basket-items">
+    <div class="basket-items__wrapper">
+        {{render '@image' image}}
+    </div>
+    <div class="basket-items__button">
+        <h3>{{name}}</h3>
+        <div class="basket-items__button-wrap">
+            x <input type="number">
+            {{ render '@button--icon-button' delete}}
+            {{ render '@price' price}}
+        </div>
+        {{render '@button' button}}
+    </div>
+
+
+</div>
