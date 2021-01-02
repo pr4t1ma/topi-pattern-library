@@ -1,15 +1,22 @@
-<div class="basket-items">
-    <div class="basket-items__wrapper">
+<div class="basket-item">
+    <div class="basket-item__image">
         {{render '@image' image}}
     </div>
-    <div class="basket-items__button">
-        <h3>{{name}}</h3>
-        <div class="basket-items__button-wrap">
-            x <input type="number">
-            {{ render '@button--icon-button' delete}}
-            {{ render '@price' price}}
+    <div class="basket-item__details">
+        <h5>{{name}}</h5>
+        <div class="basket-item__actions">
+            <div class="basket-item__qty">
+                x <input type="number" value="{{qty}}">
+            </div>
+            <div class="basket-item__action-col">
+                {{ render '@button--icon-button' deleteBtn}}
+                {{render '@button' wishlistBtn}}
+            </div>
+            <div class="basket_item__price">
+                {{ render '@price' price}}
+            </div>
         </div>
-        {{render '@button' button}}
+
     </div>
 
 

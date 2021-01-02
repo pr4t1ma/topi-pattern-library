@@ -1,16 +1,16 @@
 <div class="product">
-    <h3>{{name}}</h3>
+    <a href="./product-details-page">
+        <h3>{{name}}</h3>
+    </a>
     {{ render '@image' image}}
     {{ render '@sale'}}
     {{ render '@price' price}}
-
-
     <div class="overlay">
         <p class="desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <a href="./product-details-page">Go to details</a>
         </p>
-        {{ render '@button--checkbox-button'}}
         {{ render '@button--radio-buttons' }}
-        {{render '@button--icon-button' button}}
+        {{render '@button--icon-button' button}}{{ render '@button--checkbox-button'}}
     </div>
 </div>

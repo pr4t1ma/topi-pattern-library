@@ -1,6 +1,10 @@
 .product-details {
   display: flex;
 
+  &__image {
+    position: relative;
+  }
+
   &__thumbnails {
     width: 200px;
     margin-right: 10px;
