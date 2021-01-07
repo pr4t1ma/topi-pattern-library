@@ -1,5 +1,12 @@
 <div class="basket-items">
+    {{#if mini}}
+    {{#each basketItems as |basketItem|}}
+    {{ render '@basket-item--mini' basketItem}}
+    {{/each}}
+    {{else}}
     {{#each basketItems as |basketItem|}}
     {{ render '@basket-item' basketItem}}
     {{/each}}
+    {{/if}}
+
 </div>

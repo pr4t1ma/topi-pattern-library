@@ -1,5 +1,6 @@
 module.exports = {
   context: {
+    mini: true,
     basketItems: [
       {
         name: "Product 1",

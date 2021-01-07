@@ -1,0 +1,19 @@
+<div class="basket-item basket-item--mini">
+    <div class="basket-item__image">
+        {{render '@image' image}}
+    </div>
+    <div class="basket-item__details">
+        <h5>{{name}}</h5>
+        <div class="basket-item__actions">
+            <div class="basket-item__qty">
+                x {{qty}}
+            </div>
+            <div class="basket_item__price">
+                {{ render '@price' price}}
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
