@@ -13,11 +13,13 @@
 
   &__details {
     margin-left: 20px;
+    flex-grow: 1;
   }
 
   &__actions {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     & > div {
       margin-right: 40px;

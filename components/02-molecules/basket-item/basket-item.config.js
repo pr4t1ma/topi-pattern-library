@@ -3,7 +3,7 @@ module.exports = {
     name: "Kalo Topi",
     qty: 3,
     price: {
-      new: "500.-",
+      new: "500,-",
     },
     image: {
       imgAttr: "160/160?0.0755426283",

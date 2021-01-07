@@ -1,6 +1,10 @@
-<div class="basket-item-page">
+<div class="container">
+  {{ render '@header'}}<div class="basket-item-page">
     <div class="basket-item-page__items">
-        {{ render '@basket-items' basketItemsData}}
+      {{ render '@basket-items' basketItemsData}}
     </div>
     {{render '@subtotal'}}
+  </div>
 </div>
+{{ render '@footer-menu'}}
+{{ render '@footer'}}
