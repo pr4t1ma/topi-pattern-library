@@ -1,4 +1,8 @@
 <div class="mini-cart">
-    {{render '@button--icon-button' button}}
-    <span class="item-count">5</span>
+  <div class="btn--checkbox-button">
+    <input type="checkbox" id="mini-cart-check" />
+    <label class="fa fa-shopping-cart" for="mini-cart-check"> </label>
+    {{ render '@mini-basket'}}
+  </div>
+  <span class="item-count">5</span>
 </div>

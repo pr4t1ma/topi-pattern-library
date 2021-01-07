@@ -1,10 +1,25 @@
 .mini-cart {
   position: relative;
 
+  .mini-basket {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    width: 300px;
+    z-index: 5;
+  }
+
+  #mini-cart-check:checked ~ .mini-basket {
+    display: block;
+  }
+
   .item-count {
     position: absolute;
     left: -10px;
-    bottom: -10px;
+    top: -10px;
     background: #bf0404;
     color: #fff;
     padding: 4px 8px;
