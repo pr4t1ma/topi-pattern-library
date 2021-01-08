@@ -38,6 +38,9 @@ module.exports = {
     submit: {
       text: "Login",
     },
+    login: {
+      text: "Login",
+    },
     branch: {
       label: "Branch",
       options: [

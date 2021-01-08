@@ -1,0 +1,16 @@
+.shipping-form {
+  .field-group {
+    display: flex;
+    margin: 20px 0;
+
+    .title {
+      margin-right: 30px;
+    }
+  }
+  .subtitle {
+    background: #eee;
+    padding: 15px 10px;
+    margin: 20px 0;
+    width: 60%;
+  }
+}
