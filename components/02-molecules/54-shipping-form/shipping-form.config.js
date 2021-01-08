@@ -35,16 +35,8 @@ module.exports = {
       type: "text",
       placeholder: " Enter your e-mail",
     },
-    message: {
-      label: "Message",
-      type: "textarea",
-      placeholder: "Enter your Message",
-    },
     submit: {
       text: "Login",
-    },
-    register: {
-      text: "Register",
     },
     branch: {
       label: "Branch",
