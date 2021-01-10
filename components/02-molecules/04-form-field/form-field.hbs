@@ -1,4 +1,9 @@
 <div class="form-field">
     <label>{{label}}</label>
     <input type="{{type}}" placeholder="{{placeholder}}">
+    {{#if hint}}
+    <p class="form-field__hint"><i class="fa fa-info-circle" aria-hidden="true"></i>
+        {{hint}}</p>
+    {{/if}}
+
 </div>

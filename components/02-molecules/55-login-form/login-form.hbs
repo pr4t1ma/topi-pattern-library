@@ -1,23 +1,27 @@
-<div class="registration-form">
+<div class="login-form">
     {{render '@progress'}}
-    <div class="registration-form__row">
-        <div class="registration-form__col">
+    <div class="login-form__row">
+        <div class="login-form__col">
             <div class="title">
                 <h3>Welcome Back</h3>
             </div>
             <form action="/">
-                {{ render '@form-field' email}}
-                {{ render '@form-field' password}}
-                {{ render '@button' submit}}
+                {{ render '@button' login}}
+
             </form>
         </div>
-        <div class="registration-form__col">
+        <div class="login-form__col">
             <div class="title">
                 <h3>I am New Here</h3>
             </div>
+            {{ render '@form-field' firstname}}
+            {{ render '@form-field' lastname}}
+            {{ render '@form-field' email}}
+            {{ render '@form-field' password}}
+
             {{ render '@button' register}}
+
         </div>
     </div>
     {{render '@payment-methods'}}
-
 </div>

@@ -1,5 +1,6 @@
 .form-field {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 20px;
 
@@ -20,5 +21,10 @@
 
   textarea {
     width: 80%;
+  }
+  &__hint {
+    display: block;
+    width: 50%;
+    margin-left: 22%;
   }
 }
