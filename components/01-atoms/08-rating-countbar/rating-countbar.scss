@@ -1,0 +1,15 @@
+.rating-countbar {
+  display: flex;
+  //   align-items: center;
+  &__number {
+    font-size: 13px;
+  }
+
+  &__bar {
+    width: 0%;
+    height: 5px;
+    background: $c-primary;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+}
