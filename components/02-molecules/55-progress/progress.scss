@@ -5,6 +5,9 @@
     z-index: 1;
     overflow: hidden;
   }
+  // ul.progressbar:first-child::after {
+  //   border: none;
+  // }
   .progressbar {
     counter-reset: step;
 
@@ -39,9 +42,6 @@
         left: -50%;
         z-index: -1;
       }
-    }
-    li::after:first-child {
-      border: none;
     }
 
     li.active ~ li:after {
