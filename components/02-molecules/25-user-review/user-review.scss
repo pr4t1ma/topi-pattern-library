@@ -1,6 +1,13 @@
 .user-review {
   &-wrapper {
     display: flex;
+    .title {
+      margin-right: 40px;
+      h2 {
+        margin: 0;
+        padding: 0;
+      }
+    }
   }
   & .date {
     margin: 20px 0;
@@ -8,5 +15,8 @@
   img {
     width: 160px;
     margin: 20px 15px 0 0;
+  }
+  p {
+    width: 550px;
   }
 }
