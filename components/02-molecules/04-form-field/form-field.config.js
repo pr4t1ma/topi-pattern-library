@@ -4,4 +4,12 @@ module.exports = {
     placeholder: "First Name",
     hint: "Password must be 6 characters or more.",
   },
+  variants: [
+    {
+      name: "star",
+      context: {
+        label: "Rating",
+      },
+    },
+  ],
 };

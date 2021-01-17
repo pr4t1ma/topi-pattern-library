@@ -1,0 +1,14 @@
+<div class="wish-list">
+    {{#each items}}
+    <div class="wish-list__item">
+        {{render '@image' image}}
+        {{render '@wish-details' detail}}
+        {{render '@price'}}
+        <div class="col">
+            <p>Added: Nov 10, 2021</p>
+            {{> '@button' text='Add to cart'}}{{> '@button--icon-button' icon='trash'}}
+        </div>
+    </div>
+    {{/each}}
+
+</div>

@@ -1,0 +1,11 @@
+<div class="wish-details">
+    <div class="title">{{title}}</div>
+    {{render '@stars'}}
+    <div class="stock">
+        {{#if number}}
+        {{number}} in stock.
+        {{else}}
+        Out of stock.
+        {{/if}}
+    </div>
+</div>
