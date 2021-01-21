@@ -1,8 +1,13 @@
 <div class="review-page">
-    <div class="review-page-wrapper">
+    <div class="container">
+        <div class="review-page-wrapper">
+            {{render '@header'}}
 
-        {{render '@review-rating'}}
+            {{render '@review-rating'}}
+        </div>
+
+        {{render '@button' btnData}}
     </div>
-
-    {{render '@button' btnData}}
+    {{ render '@footer-menu'}}
+    {{ render '@footer'}}
 </div>

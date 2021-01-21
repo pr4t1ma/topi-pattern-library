@@ -1,7 +1,12 @@
 .basket-item-page {
   display: flex;
+  flex-wrap: wrap;
 
   .subtotal {
     margin-left: 50px;
+    @media (max-width: 550px) {
+      margin-top: 30px;
+      width: 100%;
+    }
   }
 }

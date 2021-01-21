@@ -5,6 +5,9 @@
     img {
       width: 140px;
     }
+    @media (max-width: 550px) {
+      width: 100%;
+    }
   }
 
   h5 {

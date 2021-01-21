@@ -5,13 +5,11 @@
 
   .container {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__col {
     flex-grow: 1;
-  }
-
-  @media (max-width: 760px) {
-    display: block;
+    min-width: 280px;
   }
 }
