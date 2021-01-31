@@ -9,7 +9,7 @@ module.exports = {
       imgAttr: "160/160?0.0755426283",
       alt: "product Kalo Topi",
     },
-    deleteBtn: { text: "Delete", icon: "trash" },
+    deleteBtn: { icon: "trash" },
     wishlistBtn: { text: "Move to wishlist" },
   },
 };

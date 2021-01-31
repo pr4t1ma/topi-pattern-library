@@ -1,6 +1,8 @@
 .product-details {
   display: flex;
-
+  &__left {
+    display: flex;
+  }
   &__image {
     position: relative;
   }
@@ -38,12 +40,33 @@
       text-align: right;
     }
     .btn {
-      margin: 0 10px;
-      padding: 0 10px;
+      margin: 10px;
+      padding: 10px;
       white-space: nowrap;
     }
     .produt-details__wrap {
       display: flex;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    display: block;
+    &__left {
+      display: flex;
+    }
+    &__details {
+    }
+    &__wrap {
+      display: block;
+    }
+    &__more {
+      display: block;
+    }
+    .price {
+      float: left;
+    }
+
+    .radio-buttons {
+      flex-wrap: wrap;
     }
   }
 }

@@ -4,17 +4,22 @@
     </div>
     <div class="basket-item__details">
         <h5>{{name}}</h5>
+        <div class="basket-item__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+
         <div class="basket-item__actions">
-            <div class="basket-item__qty">
-                x <input type="number" value="{{qty}}">
+            <div class="basket-item__qty-price">
+                <div class="basket-item__qty ">
+                    x <input type="number" value="{{qty}}">
+                </div>
+                <div class="basket_item__price">
+                    {{ render '@price' price}}
+                </div>
             </div>
             <div class="basket-item__action-col">
                 {{ render '@button--icon-button' deleteBtn}}
-                {{render '@button' wishlistBtn}}
+                {{ render '@button' wishlistBtn}}
             </div>
-            <div class="basket_item__price">
-                {{ render '@price' price}}
-            </div>
+
         </div>
 
     </div>

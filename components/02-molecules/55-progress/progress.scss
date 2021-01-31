@@ -1,20 +1,21 @@
 .progress {
-  .container {
-    width: 100%;
-    // position: absolute;
-    z-index: 1;
-    overflow: hidden;
+  ul.progressbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li:first-child::after {
+      display: none;
+    }
   }
-  // ul.progressbar:first-child::after {
-  //   border: none;
-  // }
   .progressbar {
     counter-reset: step;
 
     li {
-      float: left;
       width: 20%;
       position: relative;
+      justify-content: center;
       text-align: center;
 
       &:before {

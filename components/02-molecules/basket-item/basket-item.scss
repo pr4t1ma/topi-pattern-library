@@ -5,13 +5,13 @@
     img {
       width: 140px;
     }
-    @media (max-width: 550px) {
-      width: 100%;
-    }
+  }
+  &__desc {
+    margin-bottom: 10px;
   }
 
   h5 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   &__details {
@@ -31,6 +31,10 @@
         margin-right: 20px;
       }
     }
+  }
+
+  &__qty-price {
+    display: flex;
   }
 
   &__qty {
@@ -56,6 +60,29 @@
       h5 {
         margin-bottom: 0px;
       }
+    }
+  }
+
+  @media (max-width: 760px) {
+    font-size: 13px;
+    margin-bottom: 15px;
+    flex-wrap: nowrap;
+    &__actions {
+      display: block;
+    }
+    .btn {
+      padding: 10px;
+      margin-right: 0;
+    }
+    &__action-col {
+      display: flex;
+    }
+    &__image img {
+      max-width: 120px;
+    }
+    h5 {
+      margin-bottom: 10px;
+      margin-top: 0;
     }
   }
 }

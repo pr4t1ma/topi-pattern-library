@@ -1,13 +1,16 @@
 <div class="product-details">
-    <div class="product-details__thumbnails">
-        {{ render '@image' thumbnail1}}
-        {{ render '@image' thumbnail2}}
-        {{ render '@image' thumbnail3}}
-    </div>
-    <div class="product-details__image">
+    <div class="product-details__left">
+        <div class="product-details__thumbnails">
+            {{ render '@image' thumbnail1}}
+            {{ render '@image' thumbnail2}}
+            {{ render '@image' thumbnail3}}
+        </div>
+        <div class="product-details__image">
 
-        {{ render '@image' image}}
-        {{ render '@sale'}}</div>
+            {{ render '@image' image}}
+            {{ render '@sale'}}</div>
+    </div>
+
 
     <div class="product-details__details">
         <h3>{{name}}</h3>
@@ -22,7 +25,7 @@
 
             <div class="product-details__actions">
                 {{ render '@price' price}}
-                <div class="produt-details__wrap">
+                <div class="product-details__wrap">
                     {{ render '@button--icon-button' button}}
                     {{ render '@button--checkbox-button'}}
                 </div>

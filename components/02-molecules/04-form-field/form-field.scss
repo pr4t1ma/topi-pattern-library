@@ -28,4 +28,18 @@
     width: 50%;
     margin-left: 22%;
   }
+
+  @media screen and (max-width: 420px) {
+    display: block;
+
+    label {
+      width: 100%;
+    }
+    input,
+    textarea,
+    select {
+      margin-top: 30px;
+      margin-left: 0;
+    }
+  }
 }
