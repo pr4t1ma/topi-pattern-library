@@ -1,5 +1,12 @@
 <div class="product-filters">
-    <div class="sort"><i class="fa fa-sort-amount-desc ">Sort</i> {{render '@button--radio-buttons' sortData}}</div>
+    <div class="sort">
+        <i class="fa fa-sort-amount-desc ">Sort</i>
+        <div class="sort__horizontal">
+            {{render '@button--radio-buttons' sortData}}
+        </div>
+        <div class="sort__dropdown">{{ render '@filter-dropdown' sortData}}</div>
+    </div>
+
 
     {{ render '@filter-dropdown' size}}
     {{ render '@filter-dropdown--color' color}}

@@ -2,6 +2,7 @@ module.exports = {
   context: {
     color: {
       label: "Color",
+      fieldName: "color",
       options: [
         { label: "Red", value: "red" },
         { label: "Green", value: "green" },
@@ -10,6 +11,7 @@ module.exports = {
     },
     size: {
       label: "Size",
+      fieldName: "size",
       options: [
         { label: "S", value: "S" },
         { label: "M", value: "M" },
@@ -17,7 +19,8 @@ module.exports = {
       ],
     },
     sortData: {
-      fieldname: "Sort",
+      label: "Sort",
+      fieldname: "sort",
       options: [
         {
           label: "Popular",

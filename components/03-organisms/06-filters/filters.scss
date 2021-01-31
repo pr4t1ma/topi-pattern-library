@@ -19,4 +19,9 @@
       margin-right: 20px;
     }
   }
+  @media screen and (min-width: 760px) {
+    .sort__dropdown {
+      display: none;
+    }
+  }
 }
