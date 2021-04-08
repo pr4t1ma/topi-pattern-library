@@ -17,15 +17,15 @@
   "author": "pratymaa@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "@frctl/fractal": "^1.5.2",
-    "eslint": "^7.16.0",
+    "@frctl/fractal": "^1.5.5",
+    "eslint": "^7.22.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
+    "fancy-log": "^1.3.3",
     "gulp": "^4.0.2",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.2.1",
     "gulp-sass-glob": "^1.0.8",
-    "fancy-log": "^1.3.3",
     "gulp-sourcemaps": "^3.0.0"
   }
 }
