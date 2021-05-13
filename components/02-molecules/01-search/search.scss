@@ -2,9 +2,6 @@
   display: flex;
 
   input {
-    flex-grow: 1;
-    border: none;
-    border-bottom: 1px solid #555;
-    width: calc(100% - 50px);
+    padding: 1rem;
   }
 }
