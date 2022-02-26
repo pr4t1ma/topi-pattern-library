@@ -1,0 +1,13 @@
+.basket-item-page {
+  display: flex;
+  // flex-wrap: wrap;
+
+  .subtotal {
+    margin-left: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: block;
+    flex-wrap: wrap;
+  }
+}

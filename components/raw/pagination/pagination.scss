@@ -1,0 +1,39 @@
+.pagination {
+  margin-bottom: 50px;
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+
+      li {
+        margin: 0 5px;
+
+        &.number {
+          a {
+            background: #eee;
+            padding: 11px 0;
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            box-sizing: border-box;
+            text-align: center;
+
+            &:hover {
+              background: lighten(#eee, 3);
+            }
+          }
+          &.active a {
+            background: $c-primary;
+            color: #fff;
+            &:hover {
+              background-color: lighten($c-primary, 5);
+            }
+          }
+        }
+      }
+    }
+  }
+}

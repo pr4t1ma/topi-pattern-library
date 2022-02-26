@@ -1,0 +1,31 @@
+.mini-cart {
+  position: relative;
+
+  .mini-basket {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    width: 330px;
+    max-width: calc(100vw - 2.5rem);
+    z-index: 5;
+  }
+
+  #mini-cart-check:checked ~ .mini-basket {
+    display: block;
+  }
+
+  .item-count {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    background: #bf0404;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 11px;
+    border-radius: 50%;
+    font-family: serif;
+  }
+}

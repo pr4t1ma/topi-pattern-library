@@ -1,0 +1,28 @@
+.registration-form {
+  &__row {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+  &__col {
+    width: 50%;
+  }
+  .btn {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 760px) {
+    &__row {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .progressbar li {
+      // width: 15%;
+      // font-size: 9px;
+    }
+    &__col {
+      width: 100%;
+    }
+  }
+}

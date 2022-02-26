@@ -1,0 +1,20 @@
+.category {
+  position: relative;
+
+  h3 {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+  }
+  .sale {
+    position: absolute;
+    left: 0;
+    top: 30%;
+  }
+
+  &:hover {
+    .overlay {
+      opacity: 1;
+    }
+  }
+}

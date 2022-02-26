@@ -1,0 +1,45 @@
+.form-field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 12px 0;
+
+  label {
+    width: 20%;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+  }
+
+  input,
+  textarea,
+  select {
+    margin-left: 20px;
+  }
+
+  textarea {
+    width: 80%;
+  }
+  &__hint {
+    display: block;
+    width: 50%;
+    margin-left: 22%;
+  }
+
+  @media screen and (max-width: 420px) {
+    display: block;
+
+    label {
+      width: 100%;
+    }
+    input,
+    textarea,
+    select {
+      margin-top: 30px;
+      margin-left: 0;
+    }
+  }
+}

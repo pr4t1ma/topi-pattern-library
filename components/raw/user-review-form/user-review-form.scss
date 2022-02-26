@@ -1,0 +1,19 @@
+.user-review-form {
+  .form-field {
+    label: {
+      width: 10%;
+    }
+
+    & textarea {
+      width: auto;
+    }
+
+    &-comment {
+      margin-top: 20px;
+    }
+    .stars ul {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
