@@ -5,7 +5,7 @@ name: Build & Deploy Fractal Pattern Library
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
