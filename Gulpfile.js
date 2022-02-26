@@ -1,6 +1,6 @@
 const { watch, src, task, parallel, series, dest } = require("gulp");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require('sass'));
 const sassGlob = require("gulp-sass-glob");
 const log = require("fancy-log");
 const fractal = require("./fractal.config");

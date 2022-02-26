@@ -17,16 +17,17 @@
   "author": "pratymaa@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "@frctl/fractal": "^1.5.5",
-    "eslint": "^7.22.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "fancy-log": "^1.3.3",
+    "@frctl/fractal": "^1.5.13",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "fancy-log": "^2.0.0",
     "gulp": "^4.0.2",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^3.2.1",
-    "gulp-sass-glob": "^1.0.8",
-    "gulp-sourcemaps": "^3.0.0"
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.49.9"
   },
   "dependencies": {
     "jsonfile": "^6.1.0"
